@@ -39,5 +39,6 @@ class Form {
 
     
     })
+    windows.location.reload()
   }
 }
