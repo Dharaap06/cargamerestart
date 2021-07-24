@@ -36,9 +36,9 @@ class Form {
     this.restartButton.mousePressed(()=>{
       player.updateCount(0)
       game.update(0)
-
+ windows.location.reload()
     
     })
-    windows.location.reload()
+   
   }
 }
